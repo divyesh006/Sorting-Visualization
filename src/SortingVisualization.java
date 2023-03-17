@@ -71,6 +71,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
         }
     }
 
+    // Bubble Sort
     public void bubbleSort(){
         for (int i = 0; i < NUM_BARS - 1; i++){
             for (int j = 0; j < NUM_BARS - i - 1; j++){
@@ -88,7 +89,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
             }
         }
     }
-
+// Selection Sort
     public void selectionSort(){
         for (int i = 0; i < NUM_BARS - 1; i++){
             int minIndex = i;
@@ -108,6 +109,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
             }
         }
     }
+    // Insertion Sort
     public void insertionSort(){
         for (int i = 0; i < NUM_BARS; i++){
             int key = data[i];
@@ -125,6 +127,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
             data[j + 1] = key;
         }
     }
+    // Merge Sort
     public void mergeSort(){
         data = mergeSort(data);
     }
@@ -176,6 +179,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
         data = result;
         return result;
     }
+    // Quick Sort
     public void quickSort(int low, int high){
         if (low < high){
             int pivotIndex = partition(low, high);
@@ -211,6 +215,7 @@ public class SortingVisualization extends JPanel implements ActionListener{
         }
         return i + 1;
     }
+    // handle button clicks
     public void actionPerformed(ActionEvent e){
         if (e.getSource() == bubbleSortButton){
             Thread thread = new Thread(){

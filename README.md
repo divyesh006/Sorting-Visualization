@@ -19,5 +19,16 @@ Overall, the program provides a nice visualization of different sorting algorith
 https://user-images.githubusercontent.com/81521224/226104759-f7154cd0-96cc-465d-8854-a52d2584c68d.mp4
 
 
+<h2>Selection Sort</h2>
+
+https://user-images.githubusercontent.com/81521224/226110670-1f12b8d3-b528-46df-8770-3a1c91e79831.MP4
 
 
+<h2>Insertion Sort</h2>
+
+https://user-images.githubusercontent.com/81521224/226112883-dca4fc8b-5b0f-432a-964d-8217e3787e91.mp4
+
+
+<h3>Quick Sort</h2>
+
+https://user-images.githubusercontent.com/81521224/226113079-8680dd1a-fbd0-42b9-9cef-358a38fca788.MP4

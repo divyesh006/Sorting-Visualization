@@ -14,6 +14,5 @@ The mergeSort method is a recursive implementation of the merge sort algorithm t
 
 Overall, the program provides a nice visualization of different sorting algorithms and can be used to demonstrate their behavior and efficiency. However, it has some limitations, such as a fixed window size and a limited number of elements that can be displayed. 
 
-Bubble Sort
-https://user-images.githubusercontent.com/81521224/226102080-6109b01b-6a40-4fa8-b6f7-718e28834584.mp4
+
 
